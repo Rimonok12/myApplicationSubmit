@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "chefs-table",
+    "name": "Chef's Table",
+    "type": "Restaurant",
+    "tagline": "Gulshan's table for everyone",
+    "vibe": "upscale & welcoming",
+    "primary_color": "#b8860b",
+    "accent_color": "#e8c65a",
+    "about": "A Gulshan 2 dining destination inside Unimart, loved by over 10,000 guests for delicious food, a friendly atmosphere and genuinely awesome service. From quick bites to full celebrations, there's something for everyone.",
+    "services": [
+      { "name": "All-Day Dining", "description": "A sweeping menu spanning continents, served from morning to late night.", "price": "৳400–1,200" },
+      { "name": "Family & Group Seating", "description": "Spacious, comfortable seating ideal for families and gatherings.", "price": "" },
+      { "name": "Celebrations & Events", "description": "Birthdays, get-togethers and corporate meals, handled start to finish.", "price": "" },
+      { "name": "Takeaway & Delivery", "description": "Your favourites, packed fresh and delivered across Gulshan.", "price": "" }
+    ],
+    "highlights": ["10K+ happy guests", "4.5★ rated", "Awesome service", "Something for everyone"],
+    "location": {
+      "address": "Level 2, Gulshan Centre Point, Rd 90, Gulshan 2, Dhaka 1212",
+      "phone": "+880 1918-643663",
+      "email": "",
+      "hours": "Open daily"
+    }
+  },
+  {
+    "slug": "sultans-dine",
+    "name": "Sultan's Dine",
+    "type": "Bangladeshi Cuisine",
+    "tagline": "The royal taste of Kacchi",
+    "vibe": "rich & traditional",
+    "primary_color": "#8e1b1b",
+    "accent_color": "#d4a017",
+    "about": "Gulshan's beloved address for authentic Bangladeshi kacchi and traditional feasts. Over 12,000 guests rave about the very nice food, good atmosphere and wonderful hospitality that keep them coming back.",
+    "services": [
+      { "name": "Signature Kacchi", "description": "Fragrant, slow-cooked mutton kacchi — the dish we're famous for.", "price": "৳200–600" },
+      { "name": "Traditional Platters", "description": "Rice, roast, borhani and sweets served the royal way.", "price": "" },
+      { "name": "Party Orders", "description": "Bulk kacchi and feast packages for weddings and events.", "price": "" },
+      { "name": "Home Delivery", "description": "Piping-hot kacchi delivered across Gulshan and beyond.", "price": "" }
+    ],
+    "highlights": ["12K+ reviews", "Authentic kacchi", "Wonderful service", "Great atmosphere"],
+    "location": {
+      "address": "1st floor, Samsuddin Mansion, House 41, Road 52, Gulshan 2, Dhaka 1212",
+      "phone": "+880 1844-505930",
+      "email": "",
+      "hours": "Open daily"
+    }
+  },
+  {
+    "slug": "grill-theory",
+    "name": "Grill Theory",
+    "type": "Steakhouse",
+    "tagline": "The art of the perfect grill",
+    "vibe": "premium & bold",
+    "primary_color": "#a0341e",
+    "accent_color": "#e2a53f",
+    "about": "An upscale Gulshan steakhouse earning a remarkable 4.8★ for great food, great service and a wonderful atmosphere. Prime cuts, expertly grilled, in a setting built for memorable evenings.",
+    "services": [
+      { "name": "Prime Steaks", "description": "Hand-selected cuts grilled to your exact preference.", "price": "৳2,000+" },
+      { "name": "Chef's Grill Platters", "description": "Signature mixed grills built to share.", "price": "" },
+      { "name": "Private Dining", "description": "An intimate setting for special occasions and date nights.", "price": "" },
+      { "name": "Reservations", "description": "Book ahead for guaranteed seating on busy evenings.", "price": "" }
+    ],
+    "highlights": ["4.8★ rated", "Prime cuts", "Top-notch service", "Wonderful ambience"],
+    "location": {
+      "address": "BFC Building, Level 3, House 25, Block H, Road 11, Banani, Dhaka",
+      "phone": "",
+      "email": "",
+      "hours": "Open daily"
+    }
+  }
+]
