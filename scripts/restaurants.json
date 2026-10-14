@@ -9,18 +9,13 @@
     "accent_color": "#e8c65a",
     "about": "A Gulshan 2 dining destination inside Unimart, loved by over 10,000 guests for delicious food, a friendly atmosphere and genuinely awesome service. From quick bites to full celebrations, there's something for everyone.",
     "services": [
-      { "name": "All-Day Dining", "description": "A sweeping menu spanning continents, served from morning to late night.", "price": "৳400–1,200" },
+      { "name": "All-Day Dining", "description": "A sweeping menu spanning continents, served morning to late night.", "price": "৳400–1,200" },
       { "name": "Family & Group Seating", "description": "Spacious, comfortable seating ideal for families and gatherings.", "price": "" },
       { "name": "Celebrations & Events", "description": "Birthdays, get-togethers and corporate meals, handled start to finish.", "price": "" },
       { "name": "Takeaway & Delivery", "description": "Your favourites, packed fresh and delivered across Gulshan.", "price": "" }
     ],
     "highlights": ["10K+ happy guests", "4.5★ rated", "Awesome service", "Something for everyone"],
-    "location": {
-      "address": "Level 2, Gulshan Centre Point, Rd 90, Gulshan 2, Dhaka 1212",
-      "phone": "+880 1918-643663",
-      "email": "",
-      "hours": "Open daily"
-    }
+    "location": { "address": "Level 2, Gulshan Centre Point, Rd 90, Gulshan 2, Dhaka 1212", "phone": "+880 1918-643663", "email": "", "hours": "Open daily" }
   },
   {
     "slug": "sultans-dine",
@@ -38,12 +33,7 @@
       { "name": "Home Delivery", "description": "Piping-hot kacchi delivered across Gulshan and beyond.", "price": "" }
     ],
     "highlights": ["12K+ reviews", "Authentic kacchi", "Wonderful service", "Great atmosphere"],
-    "location": {
-      "address": "1st floor, Samsuddin Mansion, House 41, Road 52, Gulshan 2, Dhaka 1212",
-      "phone": "+880 1844-505930",
-      "email": "",
-      "hours": "Open daily"
-    }
+    "location": { "address": "1st floor, Samsuddin Mansion, House 41, Road 52, Gulshan 2, Dhaka 1212", "phone": "+880 1844-505930", "email": "", "hours": "Open daily" }
   },
   {
     "slug": "grill-theory",
@@ -61,11 +51,312 @@
       { "name": "Reservations", "description": "Book ahead for guaranteed seating on busy evenings.", "price": "" }
     ],
     "highlights": ["4.8★ rated", "Prime cuts", "Top-notch service", "Wonderful ambience"],
-    "location": {
-      "address": "BFC Building, Level 3, House 25, Block H, Road 11, Banani, Dhaka",
-      "phone": "",
-      "email": "",
-      "hours": "Open daily"
-    }
+    "location": { "address": "BFC Building, Level 3, House 25, Block H, Road 11, Banani, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "new-gulshan-plaza",
+    "name": "New Gulshan Plaza Restaurant",
+    "type": "Restaurant",
+    "tagline": "Home of the standout shawarma",
+    "vibe": "casual & reliable",
+    "primary_color": "#c0531f",
+    "accent_color": "#f0a93f",
+    "about": "A Gulshan favourite where the beef shawarma is a standout — consistently amazing every single time. Honest prices, big flavour, and a quick, friendly experience that keeps regulars coming back.",
+    "services": [
+      { "name": "Signature Shawarma", "description": "Our famous beef shawarma — consistent, juicy, unforgettable.", "price": "৳200–400" },
+      { "name": "Rice & Platters", "description": "Hearty everyday meals that won't stretch the budget.", "price": "" },
+      { "name": "Quick Bites", "description": "Fast, fresh snacks for the Gulshan lunch rush.", "price": "" },
+      { "name": "Takeaway", "description": "Grab your favourites on the go.", "price": "" }
+    ],
+    "highlights": ["Standout shawarma", "Great value", "Consistent quality", "Fast & fresh"],
+    "location": { "address": "33 Road 45, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "grove-bistro",
+    "name": "The Grove Bistro",
+    "type": "Bistro",
+    "tagline": "Top-notch food, service & views",
+    "vibe": "elegant & refined",
+    "primary_color": "#1f3a5f",
+    "accent_color": "#c9a24b",
+    "about": "Perched on Level 12 of Hamid Tower overlooking Gulshan Circle 2, The Grove Bistro is known for top-notch service, food and environment — an elevated dining experience in every sense.",
+    "services": [
+      { "name": "Fine Dining", "description": "A curated menu served with top-notch attention to detail.", "price": "৳800–2,000" },
+      { "name": "Skyline Views", "description": "Dine above Gulshan Circle 2 with floor-to-ceiling views.", "price": "" },
+      { "name": "Private Events", "description": "Elegant settings for celebrations and corporate dinners.", "price": "" },
+      { "name": "Reservations", "description": "Secure your table for the best seats in the house.", "price": "" }
+    ],
+    "highlights": ["Top-notch service", "Skyline views", "4.5★ rated", "Refined menu"],
+    "location": { "address": "Level 12, Hamid Tower, 22 DIT II Circle, Gulshan Circle 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "zephyr-lounge",
+    "name": "Zephyr Restaurant & Lounge",
+    "type": "Restaurant & Lounge",
+    "tagline": "Delicious food, fantastic atmosphere",
+    "vibe": "stylish & relaxed",
+    "primary_color": "#5b2a86",
+    "accent_color": "#d8b24c",
+    "about": "A stylish Gulshan restaurant and lounge where the food is delicious, the service is so nice, and the atmosphere is simply fantastic — the perfect spot to unwind in good company.",
+    "services": [
+      { "name": "Dining", "description": "A delicious menu served by an attentive, friendly team.", "price": "" },
+      { "name": "Lounge & Drinks", "description": "A relaxed lounge atmosphere for evenings out.", "price": "" },
+      { "name": "Private Bookings", "description": "Reserve the space for birthdays and gatherings.", "price": "" },
+      { "name": "Live Ambience", "description": "A fantastic atmosphere that sets the mood.", "price": "" }
+    ],
+    "highlights": ["Fantastic atmosphere", "So-nice service", "Delicious food", "Lounge vibes"],
+    "location": { "address": "Catharsis Tower, House 133, Road 12, Gulshan, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "green-and-pepper",
+    "name": "Green & Pepper",
+    "type": "Restaurant",
+    "tagline": "Affordable food, good vibes",
+    "vibe": "fresh & friendly",
+    "primary_color": "#2e7d32",
+    "accent_color": "#e0b73c",
+    "about": "A Gulshan neighbourhood favourite for affordable, good food in a warm, welcoming atmosphere. Simple, satisfying, and easy on the wallet — exactly what regulars love.",
+    "services": [
+      { "name": "Everyday Dining", "description": "Good food at prices that keep you coming back.", "price": "৳600–1,200" },
+      { "name": "Comfort Classics", "description": "Crowd-pleasing dishes done well.", "price": "" },
+      { "name": "Group Meals", "description": "Relaxed seating for friends and family.", "price": "" },
+      { "name": "Takeaway", "description": "Your favourites to go.", "price": "" }
+    ],
+    "highlights": ["Affordable", "Good food", "Good atmosphere", "Friendly"],
+    "location": { "address": "House 19, Road 95, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "c-house-milano",
+    "name": "C House Milano",
+    "type": "Italian",
+    "tagline": "A taste of Milan in Gulshan",
+    "vibe": "classic Italian",
+    "primary_color": "#1b6b3a",
+    "accent_color": "#d4a017",
+    "about": "Authentic Italian dining in Gulshan where the food is great, the service is excellent, and the atmosphere is just so good. Handcrafted pastas, wood-fired flavour and la dolce vita.",
+    "services": [
+      { "name": "Pasta & Risotto", "description": "Handcrafted Italian classics made fresh daily.", "price": "" },
+      { "name": "Wood-Fired Pizza", "description": "Authentic thin-crust pizzas with premium toppings.", "price": "" },
+      { "name": "Dolce & Coffee", "description": "Tiramisu, gelato and real Italian espresso.", "price": "" },
+      { "name": "Reservations", "description": "Book a table for an authentic Italian evening.", "price": "" }
+    ],
+    "highlights": ["Authentic Italian", "4.5★ rated", "Great service", "So-good ambience"],
+    "location": { "address": "House 19, Road 95, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "bistro-e",
+    "name": "Bistro-E",
+    "type": "Bistro",
+    "tagline": "Food 9, environment 10, service 10",
+    "vibe": "modern waterfront",
+    "primary_color": "#13485c",
+    "accent_color": "#c98a3c",
+    "about": "A modern waterfront bistro at Bay's Edgewater, rated a near-perfect 9/10 on food and a flawless 10/10 on both environment and service — dining that gets the whole experience right.",
+    "services": [
+      { "name": "Contemporary Dining", "description": "A modern menu plated with care.", "price": "" },
+      { "name": "Waterfront Seating", "description": "Relaxed views at Bay's Edgewater.", "price": "" },
+      { "name": "Events & Groups", "description": "A flawless setting for gatherings.", "price": "" },
+      { "name": "Reservations", "description": "Reserve your spot by the water.", "price": "" }
+    ],
+    "highlights": ["10/10 environment", "10/10 service", "Waterfront", "4.4★ rated"],
+    "location": { "address": "1st Floor, Bay's Edgewater, 12 Felani Avenue, Gulshan, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "blue-salt",
+    "name": "Blue Salt",
+    "type": "Restaurant",
+    "tagline": "Small, cozy, delicious",
+    "vibe": "cozy & intimate",
+    "primary_color": "#1565a6",
+    "accent_color": "#49c3d6",
+    "about": "A small, cozy Gulshan restaurant serving delicious food in an intimate setting. The kind of hidden gem regulars love to keep to themselves — warm, personal, and consistently good.",
+    "services": [
+      { "name": "Cozy Dining", "description": "An intimate space with a carefully crafted menu.", "price": "৳400–600" },
+      { "name": "Signature Dishes", "description": "Delicious plates that punch above the price.", "price": "" },
+      { "name": "Date Nights", "description": "A warm, personal setting for two.", "price": "" },
+      { "name": "Takeaway", "description": "Enjoy our dishes at home.", "price": "" }
+    ],
+    "highlights": ["Cozy & intimate", "Delicious food", "Great value", "Hidden gem"],
+    "location": { "address": "Orin Tower, House 23, Road 113/A, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "koreana",
+    "name": "Koreana Restaurant",
+    "type": "Korean",
+    "tagline": "Authentic Korean in Gulshan",
+    "vibe": "authentic & warm",
+    "primary_color": "#b3261e",
+    "accent_color": "#2b2b2b",
+    "about": "Gulshan's address for authentic Korean cuisine, loved for its delicious food and the friendly service of the staff. From sizzling BBQ to comforting classics, a genuine taste of Korea.",
+    "services": [
+      { "name": "Korean BBQ", "description": "Grill premium cuts right at your table.", "price": "" },
+      { "name": "Classic Dishes", "description": "Bibimbap, bulgogi, kimchi stew and more.", "price": "" },
+      { "name": "Group Dining", "description": "Share a feast with friends and family.", "price": "" },
+      { "name": "Reservations", "description": "Book your table for an authentic Korean night.", "price": "" }
+    ],
+    "highlights": ["Authentic Korean", "Friendly staff", "Delicious food", "4.4★ rated"],
+    "location": { "address": "House 22, Road 123, Gulshan 1, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "urban-crave",
+    "name": "Urban Crave",
+    "type": "Restaurant",
+    "tagline": "Really good food, really good vibes",
+    "vibe": "trendy & casual",
+    "primary_color": "#e05a1f",
+    "accent_color": "#ffc23c",
+    "about": "A trendy Gulshan spot with a perfect 5.0 rating for really good food, a great atmosphere and good service. Casual, lively and consistently satisfying — crave it, then come get it.",
+    "services": [
+      { "name": "Crave-Worthy Menu", "description": "Really good food that lives up to the name.", "price": "৳200–400" },
+      { "name": "Casual Hangout", "description": "A lively spot to meet friends.", "price": "" },
+      { "name": "Quick Service", "description": "Good service without the wait.", "price": "" },
+      { "name": "Takeaway", "description": "Your cravings, to go.", "price": "" }
+    ],
+    "highlights": ["5.0★ rated", "Really good food", "Great atmosphere", "Good service"],
+    "location": { "address": "House 24/B, Road 107, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "almajlis",
+    "name": "Almajlis Arabian Restaurant",
+    "type": "Arabian",
+    "tagline": "Where lamb melts in your mouth",
+    "vibe": "family-friendly & lavish",
+    "primary_color": "#14532d",
+    "accent_color": "#d4af37",
+    "about": "An authentic Arabian family restaurant in Gulshan where the food arrives hot and the lamb leg is so soft it melts in your mouth. Generous portions, warm hospitality, and a feast fit for the whole family.",
+    "services": [
+      { "name": "Lamb & Grills", "description": "Signature slow-cooked lamb leg and Arabian grills.", "price": "৳2,000+" },
+      { "name": "Family Feasts", "description": "Generous platters built for sharing.", "price": "" },
+      { "name": "Mandi & Rice", "description": "Fragrant, authentic Arabian rice dishes.", "price": "" },
+      { "name": "Private Family Seating", "description": "Comfortable, family-friendly dining areas.", "price": "" }
+    ],
+    "highlights": ["Melt-in-mouth lamb", "Family-friendly", "4.6★ rated", "Served hot"],
+    "location": { "address": "2nd Floor, Faisal Tower, 27 North C/A, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "al-amar",
+    "name": "Al-Amar Lebanese Cuisine",
+    "type": "Middle Eastern",
+    "tagline": "Delicious Lebanese, attentive service",
+    "vibe": "authentic & courteous",
+    "primary_color": "#7b1f3a",
+    "accent_color": "#d4a017",
+    "about": "Authentic Lebanese cuisine in Gulshan where the food is delicious and the service is attentive and courteous. Mezze, grills and classic flavours of the Levant, served with genuine care.",
+    "services": [
+      { "name": "Mezze Platters", "description": "Hummus, moutabel, fattoush and more.", "price": "" },
+      { "name": "Charcoal Grills", "description": "Shish taouk, kebabs and mixed grills.", "price": "" },
+      { "name": "Lebanese Classics", "description": "Authentic dishes from the Levant.", "price": "" },
+      { "name": "Reservations", "description": "Book a table for a Lebanese feast.", "price": "" }
+    ],
+    "highlights": ["Authentic Lebanese", "Attentive service", "Delicious food", "4.4★ rated"],
+    "location": { "address": "Level 12, House 6/A, Rangs FC Square, Road 32, Gulshan, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "raffinato",
+    "name": "Raffinato Ristorante Italiano",
+    "type": "Italian",
+    "tagline": "Beautifully presented, full of flavour",
+    "vibe": "refined Italian",
+    "primary_color": "#154a2e",
+    "accent_color": "#c0392b",
+    "about": "Refined Italian dining in Gulshan where the food is absolutely delicious, beautifully presented and full of flavour. An elegant celebration of authentic Italian cuisine.",
+    "services": [
+      { "name": "Handmade Pasta", "description": "Authentic pastas crafted and plated with care.", "price": "৳2,000+" },
+      { "name": "Italian Mains", "description": "Beautifully presented, full-flavoured classics.", "price": "" },
+      { "name": "Fine Wine & Dolce", "description": "The perfect Italian finish.", "price": "" },
+      { "name": "Reservations", "description": "Reserve your table for an elegant evening.", "price": "" }
+    ],
+    "highlights": ["Beautifully presented", "Full of flavour", "Refined dining", "Authentic Italian"],
+    "location": { "address": "House 9, Road 36, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "khao-san",
+    "name": "Khao San",
+    "type": "Thai",
+    "tagline": "Amazing Thai, generous portions",
+    "vibe": "vibrant & fresh",
+    "primary_color": "#0f766e",
+    "accent_color": "#f2b237",
+    "about": "Vibrant Thai cuisine in Gulshan where the food, portion sizes and hospitality are all amazing. Bold, fresh flavours of Thailand served generously and with a genuine smile.",
+    "services": [
+      { "name": "Thai Classics", "description": "Tom yum, green curry, pad thai and more.", "price": "৳400–1,400" },
+      { "name": "Generous Portions", "description": "Big plates made for sharing.", "price": "" },
+      { "name": "Fresh & Bold", "description": "Authentic Thai herbs and spice.", "price": "" },
+      { "name": "Reservations", "description": "Book your table for a Thai feast.", "price": "" }
+    ],
+    "highlights": ["Amazing food", "Generous portions", "Great hospitality", "4.3★ rated"],
+    "location": { "address": "Level 1, House 1, Road 23, Gulshan 1, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "tree-house",
+    "name": "Tree House",
+    "type": "Restaurant",
+    "tagline": "Great food, served fast",
+    "vibe": "relaxed & leafy",
+    "primary_color": "#2f6d3b",
+    "accent_color": "#d79a2b",
+    "about": "A relaxed Banani restaurant loved for great food served fast — the chicken steak arrives in about 20 minutes. A laid-back, leafy spot for quick, satisfying meals.",
+    "services": [
+      { "name": "Steaks & Grills", "description": "Our popular chicken steak, served in ~20 minutes.", "price": "৳600–1,600" },
+      { "name": "Fast Service", "description": "Great food without the long wait.", "price": "" },
+      { "name": "Casual Dining", "description": "A relaxed, leafy atmosphere.", "price": "" },
+      { "name": "Takeaway", "description": "Your favourites to go.", "price": "" }
+    ],
+    "highlights": ["Fast service", "Great food", "Relaxed vibe", "4.2★ rated"],
+    "location": { "address": "House 135, Road 13E, Banani, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "ruyi-barbecue",
+    "name": "Ruyi Barbecue",
+    "type": "Barbecue",
+    "tagline": "Amazing food, top-notch service",
+    "vibe": "premium & sleek",
+    "primary_color": "#7a1f1f",
+    "accent_color": "#e0a13a",
+    "about": "A premium Gulshan Avenue barbecue restaurant with amazing food, top-notch service and a beautiful atmosphere. Sizzling grills and a sleek setting for an unforgettable meal.",
+    "services": [
+      { "name": "Barbecue & Grills", "description": "Premium cuts grilled to perfection.", "price": "৳2,000+" },
+      { "name": "Signature Platters", "description": "Amazing shared feasts.", "price": "" },
+      { "name": "Fine Setting", "description": "A beautiful atmosphere for special nights.", "price": "" },
+      { "name": "Reservations", "description": "Book ahead for the best seats.", "price": "" }
+    ],
+    "highlights": ["Amazing food", "Top-notch service", "Beautiful atmosphere", "4.6★ rated"],
+    "location": { "address": "Plot 80, Gulshan Avenue, Gulshan 2, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "dune-dhaka",
+    "name": "Dune Dhaka",
+    "type": "Restaurant",
+    "tagline": "Decor, ambiance & food — all so good",
+    "vibe": "chic & atmospheric",
+    "primary_color": "#8a6d2f",
+    "accent_color": "#e3c871",
+    "about": "A chic Gulshan restaurant where the decor, ambiance, service and food are all so good. A beautifully designed space built for memorable evenings and great food.",
+    "services": [
+      { "name": "Signature Menu", "description": "Thoughtfully crafted dishes, beautifully served.", "price": "৳2,000+" },
+      { "name": "Stunning Decor", "description": "A chic, atmospheric space to dine in.", "price": "" },
+      { "name": "Private Events", "description": "An elegant venue for occasions.", "price": "" },
+      { "name": "Reservations", "description": "Reserve your table at Dune.", "price": "" }
+    ],
+    "highlights": ["Stunning decor", "Great ambiance", "So-good food", "Attentive service"],
+    "location": { "address": "Block H, House 27, Road 12A, Gulshan, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
+  },
+  {
+    "slug": "brown-and-copper-grill",
+    "name": "Brown & Copper Grill",
+    "type": "Grill",
+    "tagline": "Amazing food, warm hospitality",
+    "vibe": "warm & inviting",
+    "primary_color": "#8c4a1f",
+    "accent_color": "#d98e3c",
+    "about": "A Gulshan grill with a near-perfect 4.9★, known for amazing food, a beautiful ambience and genuinely warm hospitality. Expertly grilled dishes served in a cosy, copper-toned space.",
+    "services": [
+      { "name": "Grilled Specials", "description": "Expertly grilled dishes bursting with flavour.", "price": "৳400–1,200" },
+      { "name": "Cosy Ambience", "description": "A beautiful, warm, copper-toned setting.", "price": "" },
+      { "name": "Warm Hospitality", "description": "Service that makes you feel at home.", "price": "" },
+      { "name": "Takeaway", "description": "Enjoy our grills at home.", "price": "" }
+    ],
+    "highlights": ["4.9★ rated", "Amazing food", "Beautiful ambience", "Warm hospitality"],
+    "location": { "address": "Ground Floor, 30 Kemal Ataturk Avenue, Banani, Dhaka", "phone": "", "email": "", "hours": "Open daily" }
   }
 ]

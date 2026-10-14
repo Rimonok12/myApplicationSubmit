@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Ruyi Barbecue</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--p:#7a1f1f;--a:#e0a13a;--bg:#0a0a0b;--bg2:#141417;--line:rgba(255,255,255,.1);--txt:#f4f4f5;--mut:#a1a1aa}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:Inter,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+h1,h2{font-family:Anton,Impact,sans-serif;text-transform:uppercase;font-weight:400;line-height:.95}
+.wrap{width:min(1150px,100%-40px);margin-inline:auto}a{color:inherit;text-decoration:none}
+.btn{display:inline-block;background:var(--p);color:#fff;font-weight:700;padding:15px 30px;border-radius:999px;transition:transform .2s,filter .2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.cbar{background:#fff;color:#111;text-align:center;font-size:12px;padding:7px 14px}
+nav{position:sticky;top:0;z-index:30;background:rgba(10,10,11,.7);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.logo{font-family:Anton,sans-serif;text-transform:uppercase;font-size:1.4rem}.logo b{color:var(--p)}
+.hero{position:relative;padding:130px 0 110px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 75% 15%,color-mix(in srgb,var(--p) 55%,transparent),transparent 55%),radial-gradient(ellipse at 10% 90%,color-mix(in srgb,var(--a) 35%,transparent),transparent 50%)}
+.kick{display:inline-flex;align-items:center;gap:10px;color:var(--p);font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:.78rem;margin-bottom:20px}
+.kick::before{content:"";width:26px;height:2px;background:var(--p)}
+.hero h1{font-size:clamp(3rem,9vw,7rem)}.hero p.sub{max-width:620px;margin:26px 0 36px;font-size:clamp(1.05rem,1.6vw,1.3rem);color:#d4d4d8}
+.badges{display:flex;flex-wrap:wrap;gap:12px;margin-top:46px}
+.badges span{border:1px solid var(--line);background:rgba(255,255,255,.04);padding:10px 18px;border-radius:999px;font-size:.85rem;font-weight:600}
+section{padding:90px 0}.sec-h{font-size:clamp(2.2rem,5vw,3.6rem);margin-bottom:14px}.mut{color:var(--mut)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:40px}
+.card{position:relative;padding:32px 26px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,var(--bg2),var(--bg));transition:transform .3s,border-color .3s}
+.card:hover{transform:translateY(-6px);border-color:color-mix(in srgb,var(--p) 60%,transparent)}
+.card-num{font-family:Anton,sans-serif;font-size:1.3rem;color:var(--p)}.card h3{font-size:1.3rem;font-weight:700;margin:8px 0}
+.card p{color:var(--mut);font-size:.95rem}.card .price{display:inline-block;margin-top:14px;font-weight:800;color:var(--a)}
+.about{background:var(--bg2)}.about-grid{display:grid;gap:50px;grid-template-columns:1.2fr 1fr;align-items:center}
+.about-grid ul{list-style:none;display:grid;gap:12px;margin-top:10px}.about-grid li{display:flex;align-items:center;gap:12px;font-weight:600}
+.about-grid li::before{content:"✓";display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:color-mix(in srgb,var(--p) 18%,transparent);color:var(--p);font-size:.8rem;flex:none}
+.cta{text-align:center;background:linear-gradient(135deg,var(--p),color-mix(in srgb,var(--p) 40%,#000));border-radius:28px;padding:70px 30px}
+.cta h2{font-size:clamp(2.2rem,5vw,3.6rem);margin-bottom:16px}
+.contact{display:flex;flex-wrap:wrap;gap:40px;margin-top:40px;justify-content:center}
+.contact dt{color:var(--mut);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em}.contact dd{font-size:1.15rem;font-weight:600}
+footer{border-top:1px solid var(--line);padding:40px 0;text-align:center;color:var(--mut);font-size:.9rem}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}@media(max-width:820px){.about-grid{grid-template-columns:1fr}}
+</style></head><body>
+<div class="cbar">Demo concept by <b>Rimon Debnath</b> — proposed website for Ruyi Barbecue. Not an official site.</div>
+<nav><div class="wrap"><div class="logo">Ruyi Barbecue</div><a href="#contact" class="btn" style="padding:10px 22px">Reserve</a></div></nav>
+<header class="hero"><div class="wrap"><p class="kick">Barbecue · premium &amp; sleek</p>
+<h1>Amazing food, top-notch service</h1><p class="sub">A premium Gulshan Avenue barbecue restaurant with amazing food, top-notch service and a beautiful atmosphere. Sizzling grills and a sleek setting for an unforgettable meal.</p><a href="#contact" class="btn">View menu &amp; reserve</a>
+<div class="badges"><li class="reveal">Amazing food</li><li class="reveal">Top-notch service</li><li class="reveal">Beautiful atmosphere</li><li class="reveal">4.6★ rated</li></div></div></header>
+<section><div class="wrap"><p class="kick">What we serve</p><h2 class="sec-h">The experience</h2><div class="cards">
+      <article class="card reveal" style="transition-delay:0ms">
+        <span class="card-num">01</span><h3>Barbecue &amp; Grills</h3>
+        <p>Premium cuts grilled to perfection.</p><span class="price">৳2,000+</span>
+      </article>
+      <article class="card reveal" style="transition-delay:70ms">
+        <span class="card-num">02</span><h3>Signature Platters</h3>
+        <p>Amazing shared feasts.</p>
+      </article>
+      <article class="card reveal" style="transition-delay:140ms">
+        <span class="card-num">03</span><h3>Fine Setting</h3>
+        <p>A beautiful atmosphere for special nights.</p>
+      </article>
+      <article class="card reveal" style="transition-delay:210ms">
+        <span class="card-num">04</span><h3>Reservations</h3>
+        <p>Book ahead for the best seats.</p>
+      </article></div></div></section>
+<section class="about"><div class="wrap about-grid"><div><p class="kick">Why guests love us</p><h2 class="sec-h reveal">Ruyi Barbecue</h2><p class="mut reveal">A premium Gulshan Avenue barbecue restaurant with amazing food, top-notch service and a beautiful atmosphere. Sizzling grills and a sleek setting for an unforgettable meal.</p></div><ul><li class="reveal">Amazing food</li><li class="reveal">Top-notch service</li><li class="reveal">Beautiful atmosphere</li><li class="reveal">4.6★ rated</li></ul></div></section>
+<section id="contact"><div class="wrap"><div class="cta"><h2>Visit Ruyi Barbecue</h2><p style="max-width:520px;margin:0 auto 10px;opacity:.92">Amazing food, top-notch service</p>
+
+<dl class="contact"><div><dt>Address</dt><dd>Plot 80, Gulshan Avenue, Gulshan 2, Dhaka</dd></div><div><dt>Hours</dt><dd>Open daily</dd></div></dl></div></div></section>
+<footer>© 2026 Ruyi Barbecue · Demo concept</footer>
+<script>const io=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add("in")),{threshold:.12});document.querySelectorAll(".reveal,.card").forEach(el=>{el.classList.add("reveal");io.observe(el)});</script>
+</body></html>
